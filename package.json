@@ -1,0 +1,18 @@
+{
+  "name": "wdv353_wk1_nodejs_unit_testing_assignment",
+  "version": "1.0.0",
+  "description": "WDV353 WK1 Lesson 1.7 NodeJS Unit Testing Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "API",
+    "Jest",
+    "Test"
+  ],
+  "author": "Johnathan Pylant",
+  "license": "MIT"
+}
