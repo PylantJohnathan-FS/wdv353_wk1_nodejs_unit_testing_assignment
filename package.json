@@ -4,7 +4,7 @@
   "description": "WDV353 WK1 Lesson 1.7 NodeJS Unit Testing Assignment",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "start": "nodemon server"
   },
   "keywords": [
@@ -14,5 +14,13 @@
     "Test"
   ],
   "author": "Johnathan Pylant",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20"
+  }
 }
